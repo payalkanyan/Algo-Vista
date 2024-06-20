@@ -1,0 +1,63 @@
+{
+    "sorting": [
+        {
+            "name": "Bubble Sort",
+            "code": "/images/bubble-sort.jpeg",
+            "definition": "Bubble sort is a simple sorting algorithm that repeatedly steps through a list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.",
+            "timeComplexity": "O(n^2)"
+        },
+        {
+            "name": "Selection Sort",
+            "code": "/images/selection-sort.jpeg",
+            "definition": "Selection sort is a simple comparison-based sorting algorithm that repeatedly selects the minimum (or maximum) element from the unsorted portion of an array and moves it to the beginning (or end) of the sorted portion.",
+            "timeComplexity": "O(n^2)"
+        },
+        {
+            "name": "Insertion Sort",
+            "code": "/images/insertion-sort.jpeg",
+            "definition": "Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.",
+            "timeComplexity": "O(n^2)"
+        },
+        {
+            "name": "Quick Sort",
+            "code": "/images/quick-sort.jpeg",
+            "definition": "QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.",
+            "timeComplexity": "O(n log n)"
+        }
+    ],
+    "recursiveSorting": [
+        {
+            "name": "Merge Sort",
+            "code": "/images/merge-sort.jpeg",
+            "definition": "Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.",
+            "timeComplexity": "O(n log n)"
+        },
+        {
+            "name": "Heap Sort",
+            "code": "/images/heap-sort.jpeg",
+            "definition": "Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.",
+            "timeComplexity": "O(n log n)"
+        },
+        {
+            "name": "Quick Sort",
+            "code": "/images/quick-sort.jpeg",
+            "definition": "QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.",
+            "timeComplexity": "O(n^2)"
+        }
+    ],
+    "searching": [
+        {
+            "name": "Linear Search",
+            "code": "/images/linear-search.jpeg",
+            "definition": "Linear Search is defined as a sequential Search algorithm that starts at  one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set.",
+            "timeComplexity": "O(n)"
+        },
+        {
+            "name": "Binary Search",
+            "code": "/images/binary-search.jpeg",
+            "definition": "Binary search is a highly efficient searching algorithm used to find a specific target element within a sorted collection (such as a sorted array or list). It follows a divide-and-conquer approach, repeatedly dividing the search space in half until the target element is found or determined to be absent.",
+            "timeComplexity": "O(log n)"
+        }
+    ]
+    
+}
